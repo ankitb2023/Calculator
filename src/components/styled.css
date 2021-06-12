@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.first{
+    font-family: 'Staatliches', cursive;
+}
+.demo{
+    font-family: 'Dancing Script', cursive;
+}
