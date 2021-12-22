@@ -55,30 +55,37 @@ ${({control})=> control && `background-color:#b3b3ff;`}
 
 ${({equals})=> equals && `background-color:#cccccc;border-bottom-right-radius:10px;`}
 ${({period})=> period && `background-color:#b3b3ff;border-bottom-left-radius:10px;`}
-`
-export const Texted = styled.div`
-width:500px;
-height:500px;
-overflow:hidden;
-text-align:center;
-font-size:1.2rem;
-padding:150px 20px;
-float:left;
-color:white;
-font-family: Staatliches, 'cursive';
 
-.demo:after{
-   content:'';
-   animation: changetext 10s infinite linear;
-	color: white;
-   font-family: 'Dancing Script', cursive;
-   font-size:80px;
-}
-@keyframes changetext{
-	10%{content:"Ankit";}
-	60%{content: "Rajiv";}
-	100%{content: "abhujeja";}
+
+`
+
+
+// For dynamic typing 
+
+
+// export const Texted = styled.div`
+// width:500px;
+// height:500px;
+// overflow:hidden;
+// text-align:center;
+// font-size:1.2rem;
+// padding:150px 20px;
+// float:left;
+// color:white;
+// font-family: Staatliches, 'cursive';
+
+// .demo:after{
+//    content:'';
+//    animation: changetext 10s infinite linear;
+// 	color: white;
+//    font-family: 'Dancing Script', cursive;
+//    font-size:80px;
+// }
+// @keyframes changetext{
+// 	10%{content:"Ankit";}
+// 	60%{content: "Rajiv";}
+// 	100%{content: "abhujeja";}
 	
 
-}
-`
+// }
+// `
